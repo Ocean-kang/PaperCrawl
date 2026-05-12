@@ -1,0 +1,11 @@
+[18:10:07] INFO     paperbot | Starting crawl: CVPR 2025
+[18:10:07] INFO     paperbot.crawlers.base | [CVPR 2025] Fetching listing page | url=https://openaccess.thecvf.com/CVPR2025?day=all
+[18:10:09] INFO     paperbot.crawlers.base | [CVPR 2025] Found 5 entries on listing page, fetching details
+[18:10:11] INFO     paperbot.crawlers.base | [CVPR 2025] Fetched papers | count=5
+[18:10:11] INFO     paperbot.exporters.csv_exporter | Exported 5 papers to /home/ocean/Github_Repo/PaperCrawl/paperbot/output/CVPR2025.csv
+[18:10:11] INFO     paperbot | Done. 5 papers exported -> /home/ocean/Github_Repo/PaperCrawl/paperbot/output/CVPR2025.csv
+[18:10:16] INFO     paperbot | Starting crawl: ICLR 2025
+[18:10:16] INFO     paperbot.crawlers.base | [ICLR 2025] Fetching papers | invitation=ICLR.cc/2025/Conference/-/Submission
+[18:10:17] INFO     paperbot.crawlers.base | [ICLR 2025] Fetched papers | count=3
+[18:10:17] INFO     paperbot.exporters.csv_exporter | Exported 3 papers to /home/ocean/Github_Repo/PaperCrawl/paperbot/output/ICLR2025.csv
+[18:10:17] INFO     paperbot | Done. 3 papers exported -> /home/ocean/Github_Repo/PaperCrawl/paperbot/output/ICLR2025.csv

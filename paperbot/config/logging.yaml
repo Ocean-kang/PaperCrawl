@@ -1,0 +1,27 @@
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  default:
+    format: "[%(asctime)s] %(levelname)-8s %(name)s | %(message)s"
+    datefmt: "%H:%M:%S"
+
+handlers:
+  console:
+    class: rich.logging.RichHandler
+    level: INFO
+    rich_tracebacks: true
+    markup: true
+    show_time: true
+    show_path: false
+
+  file:
+    class: logging.FileHandler
+    level: DEBUG
+    filename: debug/paperbot.log
+    formatter: default
+    mode: a
+
+root:
+  level: INFO
+  handlers: [console, file]
